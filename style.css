@@ -1,0 +1,94 @@
+*{margin: 0;
+padding: 0;
+box-sizing: border-box;}
+body{
+    font-family: 'Roboto slab',sans-serif;
+
+}
+.img-wraper{
+    background: url('m.jpg') no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+.centertext{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.name{
+    font-size: 2em;
+    color: yellow;
+}
+.downbutton a{
+    display: block;
+    font-size: 49px;
+    color: yellow;
+    text-align: center;
+    margin: 20px;
+}
+.tag{
+    margin: 29px 0;
+    font-size: 25px;
+}
+.row{
+    background: royalblue;
+    border-radius: 5px;
+    margin: 10px 180px;
+}
+section{
+    position: relative;
+    width: 75%;
+    margin:50px auto;
+background: rgb(218, 220, 226);
+padding: 60px 100px;
+border-radius: 10px;
+}
+.listtext{
+    font-size: 20px;
+    line-height: 30px;
+    padding-top: 30px;
+}
+.listtext span{
+    font-weight: bold;
+}
+#tribute h1{
+    position: absolute;
+    font-size: 39px;
+    left: 55px;
+    top: 40px;
+}
+.leftbordered{
+    border-left: 5px solid white;
+}
+.leftbordered h2{
+    font-size: 25px;
+    font-weight: lighter;
+    margin: 20px;
+}
+.leftbordered p{
+    margin: 20px;
+    color: rgb(126, 118, 126);
+    font-size: 17px;
+}
+section h3{
+    font-size: 20px;
+    font-weight: normal;
+}
+section h3 a{
+    text-decoration: none;
+}
+footer{
+    text-align: center;
+}
+@media(max-width:952px){
+    .listtext{padding-top: 100px;
+
+    }
+}
+@media(max-width:375px){
+    .listtext{padding-top: 200px;
+
+    }
+}
